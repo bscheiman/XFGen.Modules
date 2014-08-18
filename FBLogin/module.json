@@ -1,0 +1,27 @@
+{  
+    "id": "B043C63A-6B5B-4F50-93BD-F333593410A3",
+    "version": "0.1a",
+    "name": "Facebook Login",
+    "files": [
+        {
+            "file": "FBLoginPage.cs",
+            "target": "Pages" 
+        }
+    ],
+    "options": [
+        {
+            "id": "26E8828A-8486-4837-9F00-560B0494E754",
+            "name": "App Id",
+            "type": "int",
+            "value": "0",
+            "variable": "$APPID$"
+        },
+        {
+            "id": "EECB672E-1B99-4F83-9C63-F66224ED0647",
+            "name": "Permissions",
+            "type": "string",
+            "value": "about_me, user_friends",
+            "variable": "$PERMS$"
+        }
+    ]
+}
