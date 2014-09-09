@@ -6,6 +6,10 @@
         {
             "file": "LoginPage.cs",
             "target": "Pages" 
+        },        
+        {
+            "file": "LoginViewModel.cs",
+            "target": "ViewModels" 
         }
     ],
     "options": [
