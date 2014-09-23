@@ -7,15 +7,7 @@
         {
             "file": "SingleLocationMapPage.cs",
             "target": "Pages" 
-        },        
-        {
-            "file": "LoginViewModel.cs",
-            "target": "ViewModels" 
-        },
-        {
-            "file": "LoginResponse.cs",
-            "target": "Json" 
-        },
+        }
     ],
     "options": [
         {
