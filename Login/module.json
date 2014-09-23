@@ -2,6 +2,7 @@
     "id": "33E830E3-90FC-4704-9381-EF7B7E1C48CC",
     "version": "0.1a",
     "name": "Login",
+    "description": "User/password login view",
     "files": [
         {
             "file": "LoginPage.cs",
@@ -20,8 +21,8 @@
         {
             "id": "C61D18F8-1FE2-4EE9-8981-8B2509977BCE",
             "name": "Webservice URL",
-            "type": "string",
-            "value": "www.bscheiman.org/api/test",
+            "type": "uri",
+            "value": "http://www.bscheiman.org/api/test",
             "variable": "$URL$"
         }
     ]
