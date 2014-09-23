@@ -1,0 +1,16 @@
+{  
+    "id": "33E830E3-90FC-4704-9381-EF7B7E1C48DE",
+    "version": "0.1a",
+    "name": "Test1",
+    "files": [
+    ],
+    "options": [
+        {
+            "id": "C61D18F8-1FE2-4EE9-8981-8B2532977BCE",
+            "name": "Test2?",
+            "type": "string",
+            "value": "www.bscheiman.org",
+            "variable": "$URL2$"
+        }
+    ]
+}
