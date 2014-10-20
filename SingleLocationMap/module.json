@@ -1,5 +1,4 @@
 {  
-    "id": "33E830E3-90FC-4704-8581-EF7B7E1C48CC",
     "version": "0.1a",
     "name": "SingleLocationMap",
     "description": "Shows a single pin on a map view.",
@@ -11,14 +10,12 @@
     ],
     "options": [
         {
-            "id": "C61D18F8-1FE2-4EE9-8981-8B2509977BCE",
             "name": "Latitude",
             "type": "float",
             "value": "30f",
             "variable": "$LAT$"
         },
         {
-            "id": "C61D18F3-1FE2-4EE9-8981-8B2509977BCE",
             "name": "Longitude",
             "type": "float",
             "value": "-80f",
