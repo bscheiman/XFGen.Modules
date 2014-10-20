@@ -23,5 +23,11 @@
             "value": "http://www.bscheiman.org/api/test",
             "variable": "$URL$"
         }
+    ],
+    "packages": [
+        {
+            "id": "bscheiman.Common"
+            "version": "1.0.11"
+        }
     ]
 }
