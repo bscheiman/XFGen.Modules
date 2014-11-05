@@ -1,0 +1,28 @@
+{
+    "name": "Login",
+    "author": "bscheiman",
+    "version": "0.5",
+    "description": "A login page that connects to a JSON-based service (User, password)",
+    "files": [
+        {
+            "target": "Pages",
+            "file": "LoginPage.cs"
+        },
+        {
+            "target": "Json",
+            "file": "LoginResponse.cs"
+        },
+        {
+            "target": "ViewModels",
+            "file": "LoginViewModel.cs"
+        }
+    ],
+    "options": [
+        {
+            "variable": "$LOGINURL$",
+            "name": "Login URL",
+            "type": "uri",
+            "value": "https://xfgen.azurewebsites.net/api/Login"
+        }
+    ]
+}
