@@ -2,7 +2,7 @@
 
 <?php
 
-$locations = array("Pages", "Json", "ViewModels", "iOS", "Android");
+$locations = array("Pages", "Json", "ViewModels", "iOS", "iOS/Implementations", "iOS/Renderers", "Android", "Android/Implementations", "Android/Renderers", "Data", "Interfaces", "Custom", "Extensions", "Objects");
 $types = array("string", "uri", "int", "double", "float");
 $yn = array("y", "n");
 
