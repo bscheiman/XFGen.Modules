@@ -1,0 +1,58 @@
+{
+    "name": "ImageList",
+    "author": "bscheiman",
+    "version": "0.5",
+    "description": "Shows a table w\/ image, title and subtitle",
+    "files": [
+        {
+            "target": "Custom",
+            "file": "ImageList.cs"
+        },
+        {
+            "target": "Android\/Renderers",
+            "file": "ImageListCellRenderer.Android.cs"
+        },
+        {
+            "target": "iOS\/Renderers",
+            "file": "ImageListCellRenderer.iOS.cs"
+        },
+        {
+            "target": "Pages",
+            "file": "ImageListDetailPage.cs"
+        },
+        {
+            "target": "ViewModels",
+            "file": "ImageListDetailViewModel.cs"
+        },
+        {
+            "target": "Json",
+            "file": "ImageListJsonObject.cs"
+        },
+        {
+            "target": "Pages",
+            "file": "ImageListPage.cs"
+        },
+        {
+            "target": "iOS\/Renderers",
+            "file": "ImageListRenderer.iOS.cs"
+        },
+        {
+            "target": "ViewModels",
+            "file": "ImageListViewModel.cs"
+        }
+    ],
+    "options": [
+        {
+            "variable": "$IMAGELISTDETAILPAGE$",
+            "name": "Item detail URL",
+            "type": "uri",
+            "value": "http:\/\/xfgen.azurewebsites.net\/api\/ImageListDetail"
+        },
+        {
+            "variable": "$IMAGELISTURL$",
+            "name": "Image list URL",
+            "type": "uri",
+            "value": "http:\/\/xfgen.azurewebsites.net\/api\/ImageList"
+        }
+    ]
+}
