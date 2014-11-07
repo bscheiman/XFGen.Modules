@@ -2,6 +2,9 @@
 
 <?php
 
+if ($argv[1] == "")
+    die();
+
 $locations = array("Pages", "Json", "ViewModels", "iOS", "iOS/Implementations", "iOS/Renderers", "Android", "Android/Implementations", "Android/Renderers", "Data", "Interfaces", "Custom", "Extensions", "Objects");
 $types = array("string", "uri", "int", "double", "float");
 $yn = array("y", "n");
@@ -11,6 +14,19 @@ $module['name'] = read("Name: ");
 $module['author'] = read("Author: ");
 $module['version'] = read("Version: ");
 $module['description'] = read("Description: ");
+
+if (readChoice("Packages?: ", $yn) == "y") {
+    $module['packages'] = array();
+    
+    do {
+        $package = array();
+        $package['id'] = read("Id?: ");
+        $package['version'] = read("Version?: ");
+        
+        $module['packages'][] = $package;
+    } while (readChoice("More?: ", $yn) == "y");
+    
+}
 
 $module['files'] = array();
 $module['options'] = array();
