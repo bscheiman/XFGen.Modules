@@ -1,0 +1,29 @@
+{
+    "name": "Flyout \/ Hamburger menu",
+    "author": "bscheiman",
+    "version": "0.5",
+    "description": "A flyout menu. Nuff said",
+    "files": [
+        {
+            "target": "Pages",
+            "file": "FlyoutMainPage.cs"
+        },
+        {
+            "target": "Pages",
+            "file": "FlyoutMasterPage.cs"
+        },
+        {
+            "target": "Pages",
+            "file": "FlyoutPage.cs"
+        },
+        {
+            "target": "Objects",
+            "file": "FlyoutPageInfo.cs"
+        },
+        {
+            "target": "ViewModels",
+            "file": "FlyoutViewModel.cs"
+        }
+    ],
+    "options": []
+}
