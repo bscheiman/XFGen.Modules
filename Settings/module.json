@@ -1,0 +1,33 @@
+{
+    "name": "Settings",
+    "author": "bscheiman",
+    "version": "0.5",
+    "description": "Creates a SQLite-backed table for Settings. Uses Reflection",
+    "files": [
+        {
+            "target": "Data",
+            "file": "SettingsDbObject.cs"
+        },
+        {
+            "target": "Pages",
+            "file": "SettingsPage.cs"
+        },
+        {
+            "target": "Custom",
+            "file": "SettingsTableView.cs"
+        },
+        {
+            "target": "Android\/Renderers",
+            "file": "SettingsTableViewRenderer.Android.cs"
+        },
+        {
+            "target": "iOS\/Renderers",
+            "file": "SettingsTableViewRenderer.iOS.cs"
+        },
+        {
+            "target": "ViewModels",
+            "file": "SettingsViewModel.cs"
+        }
+    ],
+    "options": []
+}
