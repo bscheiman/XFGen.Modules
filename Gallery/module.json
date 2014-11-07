@@ -1,0 +1,36 @@
+{
+    "name": "Gallery",
+    "author": "bscheiman",
+    "version": "0.5",
+    "description": "Shows a gallery of sorts using a layout similar to a CollectionView",
+    "files": [
+        {
+            "target": "Pages",
+            "file": "GalleryDetailPage.cs"
+        },
+        {
+            "target": "ViewModels",
+            "file": "GalleryDetailViewModel.cs"
+        },
+        {
+            "target": "Pages",
+            "file": "GalleryPage.cs"
+        },
+        {
+            "target": "Json",
+            "file": "GalleryResponse.cs"
+        },
+        {
+            "target": "ViewModels",
+            "file": "GalleryViewModel.cs"
+        }
+    ],
+    "options": [
+        {
+            "variable": "$GALLERYURL$",
+            "name": "Gallery URL",
+            "type": "uri",
+            "value": "http:\/\/xfgen.azurewebsites.net\/api\/Gallery"
+        }
+    ]
+}
