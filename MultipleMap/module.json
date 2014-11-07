@@ -1,0 +1,28 @@
+{
+    "name": "Multiple Pin Map",
+    "author": "bscheiman",
+    "version": "0.5",
+    "description": "A map showing N pins. Uses a web service",
+    "files": [
+        {
+            "target": "Pages",
+            "file": "MultipleMapLocationPage.cs"
+        },
+        {
+            "target": "Json",
+            "file": "MultipleMapLocationResponse.cs"
+        },
+        {
+            "target": "ViewModels",
+            "file": "MultipleMapLocationViewModel.cs"
+        }
+    ],
+    "options": [
+        {
+            "variable": "$MULTIPLEMAPURL$",
+            "name": "Map URL",
+            "type": "uri",
+            "value": "http:\/\/xfgen.azurewebsites.net\/api\/Map"
+        }
+    ]
+}
