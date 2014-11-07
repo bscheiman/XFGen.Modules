@@ -1,0 +1,17 @@
+{
+    "name": "WebView",
+    "author": "bscheiman",
+    "version": "0.5",
+    "description": "Shows a webpage",
+    "files": [
+        {
+            "target": "Pages",
+            "file": "WebPage.cs"
+        },
+        {
+            "target": "ViewModels",
+            "file": "WebViewModel.cs"
+        }
+    ],
+    "options": []
+}
