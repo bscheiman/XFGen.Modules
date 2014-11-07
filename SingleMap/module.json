@@ -1,0 +1,30 @@
+{
+    "name": "Single Location Map",
+    "author": "bscheiman",
+    "version": "0.5",
+    "description": "Shows a single pin on a map, no WS needed",
+    "files": [
+        {
+            "target": "Pages",
+            "file": "SingleLocationMapPage.cs"
+        },
+        {
+            "target": "ViewModels",
+            "file": "SingleLocationMapViewModel.cs"
+        }
+    ],
+    "options": [
+        {
+            "variable": "$LAT$",
+            "name": "Latitude",
+            "type": "double",
+            "value": "0.00"
+        },
+        {
+            "variable": "$LONG$",
+            "name": "Longitude",
+            "type": "double",
+            "value": "0.00"
+        }
+    ]
+}

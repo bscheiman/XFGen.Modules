@@ -6,8 +6,8 @@ namespace App.ViewModels {
 		public double Longitude { get; set; }
 
 		public SingleLocationMapViewModel() {
-			Latitude = $LAT$;
-			Longitude = $LONG$;
+			Latitude = Convert.ToDouble("$LAT$");
+			Longitude = Convert.ToDouble("$LONG$");
 		}
 	}
 }
