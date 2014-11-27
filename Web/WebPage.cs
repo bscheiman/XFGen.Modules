@@ -6,7 +6,7 @@ namespace App.Pages {
 	public class WebPage : BasePage<WebViewModel> {
 		protected override void ConfigureUI() {
 			BackingModel.Title = "Web";
-			BackingModel.Url = "http://www.google.com";
+			BackingModel.Url = "$WEBVIEWURL$";
 
 			Content = new WebView().BindTo(WebView.SourceProperty, _(m => m.Url));
 		}
