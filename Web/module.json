@@ -13,5 +13,12 @@
             "file": "WebViewModel.cs"
         }
     ],
-    "options": []
+    "options": [
+        {
+            "variable": "$WEBVIEWURL$",
+            "name": "URL",
+            "type": "uri",
+            "value": "http:\/\/www.google.com"
+        }
+    ]
 }
